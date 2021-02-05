@@ -7,7 +7,6 @@ namespace Sura\Database;
 use Sura;
 use Tracy;
 
-
 /**
  * Database helpers.
  */

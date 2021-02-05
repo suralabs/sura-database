@@ -6,7 +6,6 @@ namespace Sura\Database;
 
 use Sura\Database\Conventions\AmbiguousReferenceKeyException;
 
-
 interface Conventions
 {
 	/**

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Sura\Database;
 
-
 /**
  * Base class for all errors in the driver or SQL server.
  */
