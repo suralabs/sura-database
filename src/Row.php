@@ -44,10 +44,11 @@ class Row extends Sura\Utils\ArrayHash
 	}
 
 
-	/**
-	 * Checks if $key exists.
-	 * @param  string|int  $key  key or index
-	 */
+    /**
+     * Checks if $key exists.
+     * @param string|int $key key or index
+     * @return bool
+     */
 	public function offsetExists($key): bool
 	{
 		if (is_int($key)) {
