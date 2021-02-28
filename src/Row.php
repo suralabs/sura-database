@@ -7,7 +7,6 @@ namespace Sura\Database;
 use Sura;
 use Sura\Exception\MemberAccessException;
 
-
 /**
  * Represents a single table row.
  */
@@ -32,7 +31,7 @@ class Row extends Sura\Utils\ArrayHash
 	 * @param  string|int  $key  key or index
 	 * @return mixed
 	 */
-	public function offsetGet($key)
+	public function offsetGet($key): mixed
 	{
 		if (is_int($key)) {
 			$arr = array_slice((array) $this, $key, 1);
