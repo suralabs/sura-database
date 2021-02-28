@@ -54,10 +54,10 @@ class Connection
 	}
 
 
-	public function connect()
-	{
+	public function connect(): void
+    {
 		if ($this->pdo) {
-			return null;
+			return;
 		}
 
 		try {
@@ -157,11 +157,13 @@ class Connection
 	}
 
 
-	/**
-	 * @return mixed
-	 */
-	public function transaction(callable $callback)
-	{
+    /**
+     * @param callable $callback
+     * @return mixed
+     * @throws \Throwable
+     */
+	public function transaction(callable $callback): mixed
+    {
 		$this->beginTransaction();
 		try {
 			$res = $callback();
@@ -190,7 +192,11 @@ class Connection
 		return $result;
 	}
 
-
+    /**
+     * @param string $sql
+     * @param array $params
+     * @return ResultSet
+     */
 	public function queryArgs(string $sql, array $params): ResultSet
 	{
 		return $this->query($sql, ...$params);
@@ -208,7 +214,9 @@ class Connection
 			: [$sql, []];
 	}
 
-
+    /**
+     * @return string|null
+     */
 	public function getLastQueryString(): ?string
 	{
 		return $this->sql;
@@ -236,8 +244,8 @@ class Connection
      * @param mixed ...$params
      * @return mixed
      */
-	public function fetchField(string $sql, ...$params)
-	{
+	public function fetchField(string $sql, ...$params): mixed
+    {
 		return $this->query($sql, ...$params)->fetchField();
 	}
 
@@ -277,7 +285,11 @@ class Connection
 		return $this->query($sql, ...$params)->fetchAll();
 	}
 
-
+    /**
+     * @param string $value
+     * @param mixed ...$params
+     * @return SqlLiteral
+     */
 	#[Pure] public static function literal(string $value, ...$params): SqlLiteral
 	{
 		return new SqlLiteral($value, $params);
