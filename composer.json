@@ -1,6 +1,6 @@
 {
     "name": "sura/database",
-    "description": "The Sura framework.",
+    "description": "The Sura database.",
     "keywords": ["database", "sura"],
     "license": "MIT",
     "type": "library",
