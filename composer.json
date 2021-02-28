@@ -14,7 +14,7 @@
     "require": {
       "php": "^8.0",
       "ext-json": "*",
-      "sura/cache": "^2.0",
+      "sura/cache": "^2.1",
       "ext-mbstring": "*",
       "ext-fileinfo": "*",
       "ext-pdo": "*"
