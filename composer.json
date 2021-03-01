@@ -15,7 +15,7 @@
       "php": "^8.0",
       "ext-json": "*",
       "sura/cache": "^2.1",
-      "sura/framework": "^0.12.0",
+      "sura/framework": "^0.13.0",
       "ext-mbstring": "*",
       "ext-fileinfo": "*",
       "ext-pdo": "*"
