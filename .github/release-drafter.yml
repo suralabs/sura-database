@@ -12,13 +12,6 @@ categories:
     labels:
       - 'feature'
       - 'type:helper'
-      - 'type:collections'
-      - 'type:providers'
-      - 'type:resources'
-      - 'type:relations'
-      - 'type:services'
-      - 'type:interfaces'
-      - 'type:services'
   - title: 'Bug Fixes'
     labels:
       - 'fix'
@@ -46,16 +39,8 @@ version-resolver:
       - feature
       - minor
       - 'type:helper'
-      - 'type:collections'
-      - 'type:providers'
-      - 'type:resources'
-      - 'type:relations'
-      - 'type:services'
-      - 'type:interfaces'
-      - 'type:services'
   patch:
     labels:
-      - patch
       - type:build
       - bug
       - bugfix
