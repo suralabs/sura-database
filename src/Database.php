@@ -10,15 +10,15 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database;
+namespace Sura\Database;
 
-use \Tephida\Database\Exception as Issues;
+use \Sura\Database\Exception as Issues;
 use \Throwable;
 
 /**
  * Class Database
  *
- * @package Tephida\Database
+ * @package Sura\Database
  */
 class Database
 {

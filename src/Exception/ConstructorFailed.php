@@ -8,14 +8,14 @@
  *
  */
 
-namespace Tephida\Database\Exception;
+namespace Sura\Database\Exception;
 
-use Tephida\Corner\CornerTrait;
+use Sura\Corner\CornerTrait;
 
 /**
  * ConstructorFailed.
  *
- * @package Tephida\Database
+ * @package Sura\Database
  */
 class ConstructorFailed extends \RuntimeException implements ExceptionInterface
 {

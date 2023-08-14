@@ -10,9 +10,9 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database\Tests;
+namespace Sura\Database\Tests;
 
-use Tephida\Database\Factory;
+use Sura\Database\Factory;
 use PDO;
 
 class GetAvailableDriversTest extends DatabaseTest

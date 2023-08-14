@@ -10,19 +10,19 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database\Tests;
+namespace Sura\Database\Tests;
 
 /**
  * Class ExecTest
- * @package Tephida\Database\Tests
+ * @package Sura\Database\Tests
  */
 class QuoteTest extends DatabaseTest
 {
 
     /**
      * @dataProvider goodFactoryCreateArgument2DatabaseQuoteProvider
-     * @depends      Tephida\Database\Tests\EscapeIdentifierTest::testEscapeIdentifier
-     * @depends      Tephida\Database\Tests\EscapeIdentifierTest::testEscapeIdentifierThrowsSomething
+     * @depends      Sura\Database\Tests\EscapeIdentifierTest::testEscapeIdentifier
+     * @depends      Sura\Database\Tests\EscapeIdentifierTest::testEscapeIdentifierThrowsSomething
      * @param callable $cb
      * @param $quoteThis
      * @param array $expectOneOfThese

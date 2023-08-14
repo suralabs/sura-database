@@ -10,7 +10,7 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database\Tests;
+namespace Sura\Database\Tests;
 
 use InvalidArgumentException;
 
@@ -19,7 +19,7 @@ class Is1DArrayThenDeleteReadOnlyTest extends DatabaseTest
 
     /**
      * @dataProvider goodFactoryCreateArgument2DatabaseProvider
-     * @depends      Tephida\Database\Tests\Is1DArrayTest::testIs1DArray
+     * @depends      Sura\Database\Tests\Is1DArrayTest::testIs1DArray
      * @param callable $cb
      */
     public function testDeleteThrowsException(callable $cb)

@@ -10,10 +10,10 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database\Tests;
+namespace Sura\Database\Tests;
 
-use Tephida\Database\Database;
-use Tephida\Database\Exception as Issues;
+use Sura\Database\Database;
+use Sura\Database\Exception as Issues;
 use PHPUnit_Framework_Error;
 use TypeError;
 

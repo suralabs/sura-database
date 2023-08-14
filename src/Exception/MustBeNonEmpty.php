@@ -9,14 +9,14 @@
  */
 
 declare(strict_types=1);
-namespace Tephida\Database\Exception;
+namespace Sura\Database\Exception;
 
-use Tephida\Corner\CornerInterface;
-use Tephida\Corner\CornerTrait;
+use Sura\Corner\CornerInterface;
+use Sura\Corner\CornerTrait;
 
 /**
  * Class MustBeNonEmpty
- * @package Tephida\Database\Exception
+ * @package Sura\Database\Exception
  */
 class MustBeNonEmpty extends \Exception implements CornerInterface
 {
@@ -25,7 +25,7 @@ class MustBeNonEmpty extends \Exception implements CornerInterface
     public function __construct(string $message = "", int $code = 0, \Throwable $previous = null)
     {
         parent::__construct($message, $code, $previous);
-        $this->supportLink = 'https://github.com/Tephida/Database';
+        $this->supportLink = 'https://github.com/Sura/Database';
         $this->helpfulMessage = "By default, arrays passed to EasyStatement's in(), orIn(), andIn() methods must
 not be empty.        
 

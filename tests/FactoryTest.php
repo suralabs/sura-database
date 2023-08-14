@@ -10,15 +10,15 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database\Tests;
+namespace Sura\Database\Tests;
 
-use Tephida\Database\Database;
-use Tephida\Database\Factory;
+use Sura\Database\Database;
+use Sura\Database\Factory;
 use PHPUnit\Framework\TestCase;
 
 /**
  * Class FactoryTest
- * @package Tephida\Database\Tests
+ * @package Sura\Database\Tests
  */
 class FactoryTest extends TestCase
 {

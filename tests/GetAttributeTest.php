@@ -10,9 +10,9 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database\Tests;
+namespace Sura\Database\Tests;
 
-use Tephida\Database\Database;
+use Sura\Database\Database;
 use PDO;
 use PDOException;
 use ReflectionClass;

@@ -8,15 +8,15 @@
  *
  */
 
-namespace Tephida\Database\Tests;
+namespace Sura\Database\Tests;
 
-use Tephida\Database\EasyStatement;
-use Tephida\Database\Exception\MustBeNonEmpty;
+use Sura\Database\EasyStatement;
+use Sura\Database\Exception\MustBeNonEmpty;
 use PHPUnit\Framework\TestCase as TestCase;
 use RuntimeException;
 
 /**
- * @package Tephida\Database\Tests
+ * @package Sura\Database\Tests
  */
 class EasyStatementTest extends TestCase
 {

@@ -8,14 +8,14 @@
  *
  */
 
-namespace Tephida\Database\Exception;
+namespace Sura\Database\Exception;
 
-use Tephida\Corner\CornerTrait;
+use Sura\Corner\CornerTrait;
 
 /**
  * QueryError.
  *
- * @package Tephida\Database
+ * @package Sura\Database
  */
 class QueryError extends \RuntimeException implements ExceptionInterface
 {
