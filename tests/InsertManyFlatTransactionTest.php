@@ -10,10 +10,10 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database\Tests;
+namespace Sura\Database\Tests;
 
 use InvalidArgumentException;
-use Tephida\Database\Database;
+use Sura\Database\Database;
 use PDOException;
 
 class InsertManyFlatTransactionTest extends DatabaseWriteTest

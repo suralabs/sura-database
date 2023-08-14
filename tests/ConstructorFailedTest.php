@@ -10,10 +10,10 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database\Tests;
+namespace Sura\Database\Tests;
 
-use Tephida\Database\Exception\ConstructorFailed;
-use Tephida\Database\Factory;
+use Sura\Database\Exception\ConstructorFailed;
+use Sura\Database\Factory;
 
 class ConstructorFailedTest extends DatabaseTest
 {

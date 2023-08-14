@@ -10,22 +10,22 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database\Tests;
+namespace Sura\Database\Tests;
 
 use PDOStatement;
 
 /**
  * Class ExecTest
- * @package Tephida\Database\Tests
+ * @package Sura\Database\Tests
  */
 class QuoteThenQueryTest extends DatabaseWriteTest
 {
 
     /**
      * @dataProvider goodFactoryCreateArgument2DatabaseInsertManyProvider
-     * @depends      Tephida\Database\Tests\QuoteTest::testQuote
-     * @depends      Tephida\Database\Tests\EscapeIdentifierTest::testEscapeIdentifier
-     * @depends      Tephida\Database\Tests\EscapeIdentifierTest::testEscapeIdentifierThrowsSomething
+     * @depends      Sura\Database\Tests\QuoteTest::testQuote
+     * @depends      Sura\Database\Tests\EscapeIdentifierTest::testEscapeIdentifier
+     * @depends      Sura\Database\Tests\EscapeIdentifierTest::testEscapeIdentifierThrowsSomething
      * @param callable $cb
      * @param array $maps
      */

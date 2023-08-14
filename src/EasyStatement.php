@@ -8,14 +8,14 @@
  *
  */
 
-namespace Tephida\Database;
+namespace Sura\Database;
 
-use Tephida\Database\Exception\MustBeNonEmpty;
+use Sura\Database\Exception\MustBeNonEmpty;
 use RuntimeException;
 
 /**
  * Class EasyStatement
- * @package Tephida\Database
+ * @package Sura\Database
  */
 class EasyStatement
 {

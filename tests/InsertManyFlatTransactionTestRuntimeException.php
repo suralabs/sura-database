@@ -10,7 +10,7 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database\Tests;
+namespace Sura\Database\Tests;
 
 use RuntimeException;
 

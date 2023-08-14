@@ -8,14 +8,14 @@
  *
  */
 
- namespace Tephida\Database\Exception;
+ namespace Sura\Database\Exception;
 
-use Tephida\Corner\CornerInterface;
+use Sura\Corner\CornerInterface;
 
 /**
  * ExceptionInterface.
  *
- * @package Tephida\Database
+ * @package Sura\Database
  */
 interface ExceptionInterface extends CornerInterface
 {

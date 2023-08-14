@@ -10,14 +10,14 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database;
+namespace Sura\Database;
 
-use \Tephida\Database\Exception as Issues;
+use \Sura\Database\Exception as Issues;
 
 /**
  * Class Factory
  *
- * @package Tephida\Database
+ * @package Sura\Database
  */
 abstract class Factory
 {
@@ -28,7 +28,7 @@ abstract class Factory
      * @param string $username
      * @param string $password
      * @param array $options
-     * @return \Tephida\Database\Database
+     * @return \Sura\Database\Database
      * @throws Issues\ConstructorFailed
      */
     public static function create(
@@ -44,7 +44,7 @@ abstract class Factory
      * Create a new Database object from array of parameters
      *
      * @param array $config
-     * @return \Tephida\Database\Database
+     * @return \Sura\Database\Database
      * @throws Issues\ConstructorFailed
      */
     public static function fromArray(array $config): Database

@@ -28,12 +28,12 @@
   },
   "autoload": {
     "psr-4": {
-        "Tephida\\Database\\": "src"
+        "Sura\\Database\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-        "Tephida\\Database\\Tests\\": "tests"
+        "Sura\\Database\\Tests\\": "tests"
     }
   }
 }

@@ -10,11 +10,11 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database\Tests;
+namespace Sura\Database\Tests;
 
 /**
  * Class ErrorInfoTest
- * @package Tephida\Database\Tests
+ * @package Sura\Database\Tests
  */
 class ErrorInfoTest extends DatabaseTest
 {

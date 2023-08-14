@@ -10,14 +10,14 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Database\Exception;
+namespace Sura\Database\Exception;
 
-use Tephida\Corner\CornerInterface;
-use Tephida\Corner\CornerTrait;
+use Sura\Corner\CornerInterface;
+use Sura\Corner\CornerTrait;
 
 /**
  * Class InvalidTableName
- * @package Tephida\Database\Exception
+ * @package Sura\Database\Exception
  */
 class InvalidTableName extends \InvalidArgumentException implements CornerInterface
 {
