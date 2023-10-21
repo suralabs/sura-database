@@ -12,7 +12,7 @@
          stopOnError="false"
          stopOnFailure="false"
 >
-    <testsuite name="paragonie/easydb Test Suite">
+    <testsuite name="sura/sura-database Test Suite">
         <directory suffix="Test.php">./tests</directory>
     </testsuite>
     <logging>
